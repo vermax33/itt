@@ -14,12 +14,8 @@ async def on_command_error(ctx, error):
 async def on_command_error(ctx2, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
-    await ctx.send(error2_msg)
+    await ctx2.send(error2_msg)
     
-async def on_command_error(ctx3, error):
-    orig_error = getattr(error, "original", error)
-    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
-    await ctx.send(error2_msg)
 
 @bot.command()
 async def ping(ctx):
@@ -28,10 +24,7 @@ async def ping(ctx):
 @bot.command()    
 async def aaa(ctx2):
     await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
-
-@bot.command()    
-async def bbb(ctx3):
-await ctx3.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg') 
+ 
 
     
 
