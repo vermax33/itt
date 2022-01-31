@@ -21,7 +21,7 @@ async def ping(ctx):
     await ctx.send('pong')
     
 async def aaa(ctx2):
-    await ctx.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+    await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
     
     
 
