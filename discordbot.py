@@ -15,25 +15,25 @@ async def on_command_error(ctx, error):
 
 @bot.event    
 async def on_command_error(ctx2, error):
-    orig_error = getattr(error, "original", error)
+    orig_error = getattr(error2, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx2.send(error2_msg)
     
 @bot.event
 async def on_command_error(ctx3, error):
-    orig_error = getattr(error, "original", error)
+    orig_error = getattr(error3, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx3.send(error2_msg)
 
 @bot.event
 async def on_command_error(ctx4, error):
-    orig_error = getattr(error, "original", error)
+    orig_error = getattr(error4, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx4.send(error2_msg)
 
 @bot.event
 async def on_command_error(ctx5, error):
-    orig_error = getattr(error, "original", error)
+    orig_error = getattr(erro5r, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
        await ctx5.send(error5_msg)
 
