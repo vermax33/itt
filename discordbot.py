@@ -2,6 +2,15 @@ from discord.ext import commands
 from os import getenv
 import traceback
 
+client = discord.Client()
+token = 'OTM3NTQwNjQzMDUwMzg1NDQ4.YfdOww.sjd6kT3BbREEzhlxXt2sC4F6B9U'
+
+@client.event
+async def on_ready():
+    print('Logged in')
+
+client.run(token)
+
 bot = commands.Bot(command_prefix='/')
 
 
