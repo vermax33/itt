@@ -60,6 +60,7 @@ async def ssc(ctx4):
 @bot.command()    
 async def tr(ctx5):
     await ctx5.send('https://livedoor.blogimg.jp/nim_2525/imgs/1/5/15f34362.jpg')
+    
 
 
 
