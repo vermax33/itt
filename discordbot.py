@@ -16,15 +16,432 @@ async def on_command_error(ctx2, error):
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx2.send(error2_msg)
     
+async def on_command_error(ctx3, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx3.send(error2_msg)
+
+async def on_command_error(ctx4, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx4.send(error2_msg)
+
+async def on_command_error(ctx5, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx5.send(error5_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+async def on_command_error(ctx2, error):
+    orig_error = getattr(error, "original", error)
+    error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
+await ctx2.send(error2_msg)
+
+
+    
 
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()    
-async def aaa(ctx2):
+async def mks(ctx2):
     await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
- 
+
+@bot.command()    
+async def wp(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/6/a/6a33f204.jpg')
+
+@bot.command()    
+async def ssc(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/7/2/72fd79db.jpg')
+
+@bot.command()    
+async def tr(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/1/5/15f34362.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+@bot.command()    
+async def aaa(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
+
+
 
     
 
