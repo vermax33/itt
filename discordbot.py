@@ -24,6 +24,7 @@ async def on_command_error(ctx3, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
+    
 @bot.command()    
 async def aaa(ctx2):
     await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
