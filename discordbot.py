@@ -258,8 +258,8 @@ async def mks(ctx2):
     await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
 
 @bot.command()    
-async def wp(ctx2):
-await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/6/a/6a33f204.jpg')
+async def wp(ctx3):
+await ctx3.send('https://livedoor.blogimg.jp/nim_2525/imgs/6/a/6a33f204.jpg')
 
 @bot.command()    
 async def ssc(ctx2):
