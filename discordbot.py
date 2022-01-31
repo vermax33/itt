@@ -12,26 +12,30 @@ async def on_command_error(ctx, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
-    
+
+@bot.event    
 async def on_command_error(ctx2, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx2.send(error2_msg)
     
+@bot.event
 async def on_command_error(ctx3, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
-await ctx3.send(error2_msg)
+    await ctx3.send(error2_msg)
 
+@bot.event
 async def on_command_error(ctx4, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
-await ctx4.send(error2_msg)
+    await ctx4.send(error2_msg)
 
+@bot.event
 async def on_command_error(ctx5, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
-await ctx5.send(error5_msg)
+       await ctx5.send(error5_msg)
 
 
 
@@ -47,15 +51,15 @@ async def mks(ctx2):
 
 @bot.command()    
 async def wp(ctx3):
-await ctx3.send('https://livedoor.blogimg.jp/nim_2525/imgs/6/a/6a33f204.jpg')
+    await ctx3.send('https://livedoor.blogimg.jp/nim_2525/imgs/6/a/6a33f204.jpg')
 
 @bot.command()    
 async def ssc(ctx4):
-await ctx4.send('https://livedoor.blogimg.jp/nim_2525/imgs/7/2/72fd79db.jpg')
+    await ctx4.send('https://livedoor.blogimg.jp/nim_2525/imgs/7/2/72fd79db.jpg')
 
 @bot.command()    
 async def tr(ctx5):
-await ctx5.send('https://livedoor.blogimg.jp/nim_2525/imgs/1/5/15f34362.jpg')
+    await ctx5.send('https://livedoor.blogimg.jp/nim_2525/imgs/1/5/15f34362.jpg')
 
 
 
