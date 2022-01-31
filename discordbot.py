@@ -16,6 +16,9 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
+embed=discord.Embed(title=aaa, url=https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg)
+await ctx.send(embed=embed)
+
 
 token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
