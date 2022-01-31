@@ -22,7 +22,12 @@ async def ping(ctx):
 @bot.command()    
 async def aaa(ctx2):
     await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
-    
+
+@bot.command()    
+async def bbb(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg') 
+async def ccc(ctx2):
+await ctx2.send('https://livedoor.blogimg.jp/nim_2525/imgs/e/d/ed590862.jpg')
     
 
 
